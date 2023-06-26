@@ -5272,6 +5272,7 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-top: 22px;
+  width:calc(100% - 65px);
 }
 @media (max-width: 767px) {
   .contact-wrap .contact-info .contact-title h2 {
