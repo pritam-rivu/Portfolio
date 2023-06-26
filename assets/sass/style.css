@@ -444,6 +444,7 @@ img {
 }
 .form select {
   font-style: normal;
+
   background: url(../images/select-icon.png) no-repeat right center;
   display: inline-block;
   -webkit-appearance: none;
@@ -3922,15 +3923,15 @@ img {
   height: 105%;
   background: #FFFFFF;
 }
-.static-hero .hero-icon li:nth-child(2)::before {
+/* .static-hero .hero-icon li:nth-child(2)::before {
   background: linear-gradient(180deg, #0D4BEC 0%, #2AE480 100%), #D9D9D9;
-}
+} */
 .static-hero .hero-icon li:nth-child(2)::after {
   left: -2px;
   top: -2px;
   width: 105%;
   height: 105%;
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
 }
 .static-hero .hero-icon .shape {
   position: absolute;
@@ -4134,8 +4135,8 @@ img {
   margin-bottom: 0.8em;
   line-height: 1.9em;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 36px;
   color: #ADADAD;
 }
 @media (max-width: 575px) {
@@ -4143,6 +4144,24 @@ img {
     font-size: 15px;
     line-height: 26px;
   }
+}
+.wpo-site-footer .about-widget .my-img-block{
+  padding:0 0 30px 0;
+  text-align: center;
+}
+.wpo-site-footer .about-widget .my-img-block .circle-box{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wpo-site-footer .about-widget .my-img-block .circle-box img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 .wpo-site-footer .about-widget p:last-child {
   margin-bottom: 0;
@@ -4570,6 +4589,9 @@ img {
   transition: all 0.3s ease-in-out;
   display: inline-block;
   cursor: pointer;
+}
+.portfolio-single .text h2 span a{
+  color: #fff;
 }
 @media (max-width: 575px) {
   .portfolio-single .text h2 span {
@@ -5263,6 +5285,10 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.contact-wrap .contact-info .Info li .text h4 a{
+  color: #ffff;
+  text-transform: none;
+}
 @media (max-width: 1199px) {
   .contact-wrap .contact-info .Info li .text h4 {
     font-size: 17px;
@@ -5298,14 +5324,3 @@ img {
 
 
 
-
-/*html
-  css
-  jquery
-  javascript
-  bootstrap
-  photoshop
-  figma
-*/
-
-/*https://codepen.io/katewww/pen/ExyVMLq?editors=1010*/
